@@ -6,7 +6,7 @@ The output results provide a better understanding of "what" the semantic map doe
 
 #### command
 
-doodle --style train-space.png --output doodle-space.png --device=cpu --iterations=40`
+`doodle --style train-space.png --output doodle-space.png --device=cpu --iterations=40`
 
 #### style
 
