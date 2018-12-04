@@ -18,6 +18,7 @@
 
 ### create proposal for exterior landscaping
 - reimagine garden or yard by importing vegetation, water features, etc
+- use particular styles of gardens (french, english, japanese, etc) and apply them to customers space
 - create detailed image of existing structure with new exterior look
 
 ### take pictures of existing (older) buildings in need of repair; what is possible with renovation
@@ -28,8 +29,7 @@
 
 ### redesign commercial space
 - able to grow or shrink sections, as well as move them
-- scale up images so original image texture (bricks, houses, people/animals?, buildings) can be 
-- expanded beyond original size without direct copying
+- scale up images so original image texture (bricks, houses, people/animals?, buildings) can be expanded beyond original size without direct copying
 
 ### create your own pop-art
 
@@ -52,5 +52,13 @@
 - make characters appear in different poses, places with one full image and many sketches
 
 ### turn kids drawings into higher art
+
+### create peronalized decals, vinals, wallpaper, curtains, coffee mugs, posters
+
+### scan home storage/garden bed and use machine to reimagine organization of items
+
+### use words, phrases, or quotes as style and doodles of places or things as content to make word art
+- neighborhood maps with neighborhood names
+- face of darth vader with his lines from movies
 
 `doodle --style train-house.jpg --content sketch-house.jpg --output render-house.png --device=cpu --phases=4 --iterations=40`
