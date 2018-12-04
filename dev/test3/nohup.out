@@ -1,0 +1,35 @@
+[1;36mNeural Doodle for semantic style transfer.[0m
+[0;36m  - Using device `cpu` for processing the images.[0m
+[0;36m  - Adding `content-thomas-tank-engine_sem.png` as semantic map.
+  - Loading `style-space-illustrated.png` for style data.
+  - Adding `style-space-illustrated_sem.png` as semantic map.
+[0m
+[1;94mPhase #0: resolution 184x135  scale 0.25[0;94m
+  - Style layer 3_1: (900, 260, 3, 3) patches in 2,106kb.
+  - Style layer 4_1: (196, 516, 3, 3) patches in 910kb.
+[0m
+  0   [1;97mloss[0m 5.60e+03   [1;97mstyle[0m [1;97m3_1[0m 9.90e+02  [1;97m4_1[0m 4.40e+03   [1;97mquality[0m  4.8%   [1;97mtime[0m 9.6s 
+ 10   [1;97mloss[0m 2.71e+03   [1;97mstyle[0m [1;97m3_1[0m 6.91e+02  [1;97m4_1[0m 1.87e+03   [1;97mquality[0m 41.7%   [1;97mtime[0m 97.0s 
+ 20   [1;97mloss[0m 2.24e+03   [1;97mstyle[0m [1;97m3_1[0m 6.05e+02  [1;97m4_1[0m 1.54e+03   [1;97mquality[0m 63.2%   [1;97mtime[0m 96.5s 
+ 30   [1;97mloss[0m 2.05e+03   [1;97mstyle[0m [1;97m3_1[0m 5.46e+02  [1;97m4_1[0m 1.44e+03   [1;97mquality[0m 74.8%   [1;97mtime[0m 96.1s 
+
+[1;94mPhase #1: resolution 368x270  scale 0.5[0;94m
+  - Style layer 3_1: (3844, 260, 3, 3) patches in 8,994kb.
+  - Style layer 4_1: (900, 516, 3, 3) patches in 4,179kb.
+[0m
+ 40   [1;97mloss[0m 4.03e+03   [1;97mstyle[0m [1;97m3_1[0m 7.95e+02  [1;97m4_1[0m 3.23e+03   [1;97mquality[0m  4.9%   [1;97mtime[0m 42.8s 
+ 50   [1;97mloss[0m 2.06e+03   [1;97mstyle[0m [1;97m3_1[0m 5.23e+02  [1;97m4_1[0m 1.53e+03   [1;97mquality[0m 42.8%   [1;97mtime[0m 435.1s 
+ 60   [1;97mloss[0m 1.82e+03   [1;97mstyle[0m [1;97m3_1[0m 4.52e+02  [1;97m4_1[0m 1.36e+03   [1;97mquality[0m 65.1%   [1;97mtime[0m 426.8s 
+ 70   [1;97mloss[0m 1.72e+03   [1;97mstyle[0m [1;97m3_1[0m 4.13e+02  [1;97m4_1[0m 1.29e+03   [1;97mquality[0m 77.3%   [1;97mtime[0m 480.9s 
+
+[1;94mPhase #2: resolution 736x540  scale 1.0[0;94m
+  - Style layer 3_1: (15876, 260, 3, 3) patches in 37,149kb.
+  - Style layer 4_1: (3844, 516, 3, 3) patches in 17,851kb.
+[0m
+ 80   [1;97mloss[0m 3.24e+03   [1;97mstyle[0m [1;97m3_1[0m 7.15e+02  [1;97m4_1[0m 2.52e+03   [1;97mquality[0m  5.1%   [1;97mtime[0m 240.8s 
+ 90   [1;97mloss[0m 1.50e+03   [1;97mstyle[0m [1;97m3_1[0m 4.11e+02  [1;97m4_1[0m 1.08e+03   [1;97mquality[0m 43.6%   [1;97mtime[0m 2212.3s 
+100   [1;97mloss[0m 1.30e+03   [1;97mstyle[0m [1;97m3_1[0m 3.50e+02  [1;97m4_1[0m 9.41e+02   [1;97mquality[0m 66.3%   [1;97mtime[0m 1874.8s 
+110   [1;97mloss[0m 1.22e+03   [1;97mstyle[0m [1;97m3_1[0m 3.21e+02  [1;97m4_1[0m 8.89e+02   [1;97mquality[0m 79.3%   [1;97mtime[0m 1981.9s 
+
+[0;36mOptimization finished in 10129.0s, average pixel error 4.9![0m
+
