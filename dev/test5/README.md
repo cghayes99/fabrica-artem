@@ -42,5 +42,5 @@ The semantic annotation maps were made from images masks using Photoshop.
 
 > output
 
-![](r1/render-Ali-Nagel.r2.png)
+![](r2/render-Ali-Nagel.r2.png)
 
