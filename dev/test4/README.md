@@ -12,11 +12,11 @@ The semantic annotation maps were made from images masks using Photoshop.
 
 ![](train-house.jpg)
 
-![](train-house.jpg_sem.png)
+![](train-house_sem.png)
 
 #### content
 
-![](house-doodle.png_sem.png)
+![](house-doodle_sem.png)
 
 #### output
 
