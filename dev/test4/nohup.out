@@ -1,0 +1,71 @@
+[1;36mNeural Doodle for semantic style transfer.[0m
+[0;36m  - Using device `cpu` for processing the images.[0m
+[0;36m  - Adding `house-doodle_sem.png` as semantic map.
+  - Loading `train-house.jpg` for style data.
+  - Adding `train-house_sem.png` as semantic map.
+[0m
+[1;94mPhase #0: resolution 128x85  scale 0.25[0;94m
+  - Style layer 3_1: (570, 260, 3, 3) patches in 1,333kb.
+  - Style layer 4_1: (112, 516, 3, 3) patches in 520kb.
+[0m
+  0   [1;97mloss[0m 6.04e+03   [1;97mstyle[0m [1;97m3_1[0m 1.00e+03  [1;97m4_1[0m 4.83e+03   [1;97mquality[0m  4.0%   [1;97mtime[0m 3.5s 
+ 10   [1;97mloss[0m 2.92e+03   [1;97mstyle[0m [1;97m3_1[0m 6.62e+02  [1;97m4_1[0m 2.12e+03   [1;97mquality[0m 39.5%   [1;97mtime[0m 33.5s 
+ 20   [1;97mloss[0m 2.56e+03   [1;97mstyle[0m [1;97m3_1[0m 5.87e+02  [1;97m4_1[0m 1.88e+03   [1;97mquality[0m 60.6%   [1;97mtime[0m 32.6s 
+ 30   [1;97mloss[0m 2.41e+03   [1;97mstyle[0m [1;97m3_1[0m 5.49e+02  [1;97m4_1[0m 1.80e+03   [1;97mquality[0m 72.2%   [1;97mtime[0m 31.5s 
+
+[1;94mPhase #1: resolution 256x170  scale 0.5[0;94m
+  - Style layer 3_1: (2480, 260, 3, 3) patches in 5,803kb.
+  - Style layer 4_1: (570, 516, 3, 3) patches in 2,647kb.
+[0m
+ 40   [1;97mloss[0m 4.30e+03   [1;97mstyle[0m [1;97m3_1[0m 7.97e+02  [1;97m4_1[0m 3.49e+03   [1;97mquality[0m  4.7%   [1;97mtime[0m 12.4s 
+ 50   [1;97mloss[0m 2.18e+03   [1;97mstyle[0m [1;97m3_1[0m 4.85e+02  [1;97m4_1[0m 1.69e+03   [1;97mquality[0m 41.6%   [1;97mtime[0m 124.9s 
+ 60   [1;97mloss[0m 1.95e+03   [1;97mstyle[0m [1;97m3_1[0m 4.33e+02  [1;97m4_1[0m 1.50e+03   [1;97mquality[0m 62.0%   [1;97mtime[0m 123.7s 
+ 70   [1;97mloss[0m 1.85e+03   [1;97mstyle[0m [1;97m3_1[0m 4.01e+02  [1;97m4_1[0m 1.43e+03   [1;97mquality[0m 73.6%   [1;97mtime[0m 126.0s 
+
+[1;94mPhase #2: resolution 512x341  scale 1.0[0;94m
+  - Style layer 3_1: (10458, 260, 3, 3) patches in 24,471kb.
+  - Style layer 4_1: (2480, 516, 3, 3) patches in 11,517kb.
+[0m
+ 80   [1;97mloss[0m 3.45e+03   [1;97mstyle[0m [1;97m3_1[0m 6.56e+02  [1;97m4_1[0m 2.79e+03   [1;97mquality[0m  5.0%   [1;97mtime[0m 59.8s 
+ 90   [1;97mloss[0m 1.62e+03   [1;97mstyle[0m [1;97m3_1[0m 3.82e+02  [1;97m4_1[0m 1.23e+03   [1;97mquality[0m 43.0%   [1;97mtime[0m 556.2s 
+100   [1;97mloss[0m 1.37e+03   [1;97mstyle[0m [1;97m3_1[0m 3.32e+02  [1;97m4_1[0m 1.04e+03   [1;97mquality[0m 64.8%   [1;97mtime[0m 552.8s 
+110   [1;97mloss[0m 1.27e+03   [1;97mstyle[0m [1;97m3_1[0m 3.05e+02  [1;97m4_1[0m 9.59e+02   [1;97mquality[0m 77.3%   [1;97mtime[0m 565.1s 
+
+[0;36mOptimization finished in 2953.9s, average pixel error 7.2![0m
+
+[1;36mNeural Doodle for semantic style transfer.[0m
+[0;36m  - Using device `cpu` for processing the images.[0m
+[0;36m  - Adding `house-doodle-v2_sem.png` as semantic map.
+  - Loading `train-house.jpg` for style data.
+  - Adding `train-house_sem.png` as semantic map.
+[0m
+[1;94mPhase #0: resolution 128x85  scale 0.25[0;94m
+  - Style layer 3_1: (570, 260, 3, 3) patches in 1,333kb.
+  - Style layer 4_1: (112, 516, 3, 3) patches in 520kb.
+[0m
+  0   [1;97mloss[0m 5.93e+03   [1;97mstyle[0m [1;97m3_1[0m 1.00e+03  [1;97m4_1[0m 4.71e+03   [1;97mquality[0m  4.1%   [1;97mtime[0m 3.0s 
+ 10   [1;97mloss[0m 2.68e+03   [1;97mstyle[0m [1;97m3_1[0m 6.03e+02  [1;97m4_1[0m 1.93e+03   [1;97mquality[0m 39.4%   [1;97mtime[0m 30.0s 
+ 20   [1;97mloss[0m 2.28e+03   [1;97mstyle[0m [1;97m3_1[0m 5.26e+02  [1;97m4_1[0m 1.66e+03   [1;97mquality[0m 60.4%   [1;97mtime[0m 30.1s 
+ 30   [1;97mloss[0m 2.12e+03   [1;97mstyle[0m [1;97m3_1[0m 4.83e+02  [1;97m4_1[0m 1.58e+03   [1;97mquality[0m 72.3%   [1;97mtime[0m 30.4s 
+ 40   [1;97mloss[0m 2.06e+03   [1;97mstyle[0m [1;97m3_1[0m 4.67e+02  [1;97m4_1[0m 1.54e+03   [1;97mquality[0m 79.4%   [1;97mtime[0m 29.3s 
+
+[1;94mPhase #1: resolution 256x170  scale 0.5[0;94m
+  - Style layer 3_1: (2480, 260, 3, 3) patches in 5,803kb.
+  - Style layer 4_1: (570, 516, 3, 3) patches in 2,647kb.
+[0m
+ 50   [1;97mloss[0m 3.14e+03   [1;97mstyle[0m [1;97m3_1[0m 6.50e+02  [1;97m4_1[0m 2.48e+03   [1;97mquality[0m 13.5%   [1;97mtime[0m 36.2s 
+ 60   [1;97mloss[0m 2.05e+03   [1;97mstyle[0m [1;97m3_1[0m 4.50e+02  [1;97m4_1[0m 1.59e+03   [1;97mquality[0m 46.4%   [1;97mtime[0m 120.8s 
+ 70   [1;97mloss[0m 1.88e+03   [1;97mstyle[0m [1;97m3_1[0m 4.08e+02  [1;97m4_1[0m 1.46e+03   [1;97mquality[0m 64.2%   [1;97mtime[0m 122.7s 
+ 80   [1;97mloss[0m 1.80e+03   [1;97mstyle[0m [1;97m3_1[0m 3.80e+02  [1;97m4_1[0m 1.41e+03   [1;97mquality[0m 73.6%   [1;97mtime[0m 122.3s 
+
+[1;94mPhase #2: resolution 512x341  scale 1.0[0;94m
+  - Style layer 3_1: (10458, 260, 3, 3) patches in 24,471kb.
+  - Style layer 4_1: (2480, 516, 3, 3) patches in 11,517kb.
+[0m
+ 90   [1;97mloss[0m 2.96e+03   [1;97mstyle[0m [1;97m3_1[0m 5.92e+02  [1;97m4_1[0m 2.36e+03   [1;97mquality[0m 14.2%   [1;97mtime[0m 157.7s 
+100   [1;97mloss[0m 1.65e+03   [1;97mstyle[0m [1;97m3_1[0m 3.78e+02  [1;97m4_1[0m 1.27e+03   [1;97mquality[0m 48.4%   [1;97mtime[0m 562.9s 
+110   [1;97mloss[0m 1.45e+03   [1;97mstyle[0m [1;97m3_1[0m 3.35e+02  [1;97m4_1[0m 1.11e+03   [1;97mquality[0m 67.7%   [1;97mtime[0m 563.3s 
+120   [1;97mloss[0m 1.36e+03   [1;97mstyle[0m [1;97m3_1[0m 3.11e+02  [1;97m4_1[0m 1.04e+03   [1;97mquality[0m 78.4%   [1;97mtime[0m 601.6s 
+
+[0;36mOptimization finished in 2949.3s, average pixel error 7.0![0m
+
