@@ -24,6 +24,10 @@ The semantic annotation maps were made from images masks using Photoshop.
 
 ## Test 4 => 1
 
+### source
+
+![](test.1/home-sketch-with-sideload-garage_src.jpg)
+
 ### content
 
 ![](test.1/home-sketch-with-sideload-garage_sem.png)

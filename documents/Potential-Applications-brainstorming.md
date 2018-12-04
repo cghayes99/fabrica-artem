@@ -52,3 +52,5 @@
 - make characters appear in different poses, places with one full image and many sketches
 
 ### turn kids drawings into higher art
+
+`doodle --style train-house.jpg --content sketch-house.jpg --output render-house.png --device=cpu --phases=4 --iterations=40`
