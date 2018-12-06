@@ -1,0 +1,49 @@
+[1;36mNeural Doodle for semantic style transfer.[0m
+[0;36m  - Using device `cpu` for processing the images.[0m
+[0;36m  - Loading `../content-ali.jpg` for content data.
+  - Adding `../content-ali_sem.png` as semantic map.
+  - Loading `../style-nagel.jpg` for style data.
+  - Adding `../style-nagel_sem.png` as semantic map.
+[0m
+[1;94mPhase #0: resolution 53x51  scale 0.125[0;94m
+  - Style layer 3_1: (154, 260, 3, 3) patches in 360kb.
+  - Style layer 4_1: (24, 516, 3, 3) patches in 111kb.
+  - Content layer conv4_2: 512 features in 18kb.
+[0m
+  0   [1;97mloss[0m 1.43e+04   [1;97mcontent[0m [1;97m4_2[0m 8.32e+02   [1;97mstyle[0m [1;97m3_1[0m 2.55e+03  [1;97m4_1[0m 1.07e+04   [1;97mquality[0m  0.0%   [1;97mtime[0m 1.0s 
+ 10   [1;97mloss[0m 7.55e+03   [1;97mcontent[0m [1;97m4_2[0m 6.30e+02   [1;97mstyle[0m [1;97m3_1[0m 1.89e+03  [1;97m4_1[0m 4.88e+03   [1;97mquality[0m 14.9%   [1;97mtime[0m 11.9s 
+ 20   [1;97mloss[0m 6.37e+03   [1;97mcontent[0m [1;97m4_2[0m 6.57e+02   [1;97mstyle[0m [1;97m3_1[0m 1.72e+03  [1;97m4_1[0m 3.87e+03   [1;97mquality[0m 27.6%   [1;97mtime[0m 9.9s 
+ 30   [1;97mloss[0m 5.92e+03   [1;97mcontent[0m [1;97m4_2[0m 6.66e+02   [1;97mstyle[0m [1;97m3_1[0m 1.61e+03  [1;97m4_1[0m 3.55e+03   [1;97mquality[0m 37.2%   [1;97mtime[0m 10.1s 
+
+[1;94mPhase #1: resolution 107x102  scale 0.25[0;94m
+  - Style layer 3_1: (744, 260, 3, 3) patches in 1,740kb.
+  - Style layer 4_1: (154, 516, 3, 3) patches in 715kb.
+  - Content layer conv4_2: 512 features in 79kb.
+[0m
+ 40   [1;97mloss[0m 9.98e+03   [1;97mcontent[0m [1;97m4_2[0m 1.04e+03   [1;97mstyle[0m [1;97m3_1[0m 2.40e+03  [1;97m4_1[0m 6.53e+03   [1;97mquality[0m  3.0%   [1;97mtime[0m 5.5s 
+ 50   [1;97mloss[0m 6.29e+03   [1;97mcontent[0m [1;97m4_2[0m 8.17e+02   [1;97mstyle[0m [1;97m3_1[0m 1.75e+03  [1;97m4_1[0m 3.71e+03   [1;97mquality[0m 34.3%   [1;97mtime[0m 70.4s 
+ 60   [1;97mloss[0m 5.80e+03   [1;97mcontent[0m [1;97m4_2[0m 8.36e+02   [1;97mstyle[0m [1;97m3_1[0m 1.61e+03  [1;97m4_1[0m 3.35e+03   [1;97mquality[0m 51.3%   [1;97mtime[0m 48.3s 
+ 70   [1;97mloss[0m 5.56e+03   [1;97mcontent[0m [1;97m4_2[0m 8.44e+02   [1;97mstyle[0m [1;97m3_1[0m 1.52e+03  [1;97m4_1[0m 3.17e+03   [1;97mquality[0m 59.8%   [1;97mtime[0m 37.8s 
+
+[1;94mPhase #2: resolution 215x205  scale 0.5[0;94m
+  - Style layer 3_1: (3264, 260, 3, 3) patches in 7,637kb.
+  - Style layer 4_1: (744, 516, 3, 3) patches in 3,455kb.
+  - Content layer conv4_2: 512 features in 332kb.
+[0m
+ 80   [1;97mloss[0m 8.92e+03   [1;97mcontent[0m [1;97m4_2[0m 1.03e+03   [1;97mstyle[0m [1;97m3_1[0m 1.91e+03  [1;97m4_1[0m 5.97e+03   [1;97mquality[0m  4.5%   [1;97mtime[0m 15.1s 
+ 90   [1;97mloss[0m 5.76e+03   [1;97mcontent[0m [1;97m4_2[0m 8.28e+02   [1;97mstyle[0m [1;97m3_1[0m 1.26e+03  [1;97m4_1[0m 3.67e+03   [1;97mquality[0m 38.3%   [1;97mtime[0m 171.0s 
+100   [1;97mloss[0m 5.31e+03   [1;97mcontent[0m [1;97m4_2[0m 8.26e+02   [1;97mstyle[0m [1;97m3_1[0m 1.15e+03  [1;97m4_1[0m 3.32e+03   [1;97mquality[0m 56.6%   [1;97mtime[0m 156.5s 
+110   [1;97mloss[0m 5.04e+03   [1;97mcontent[0m [1;97m4_2[0m 8.29e+02   [1;97mstyle[0m [1;97m3_1[0m 1.09e+03  [1;97m4_1[0m 3.12e+03   [1;97mquality[0m 66.9%   [1;97mtime[0m 160.8s 
+
+[1;94mPhase #3: resolution 430x411  scale 1.0[0;94m
+  - Style layer 3_1: (13755, 260, 3, 3) patches in 32,186kb.
+  - Style layer 4_1: (3264, 516, 3, 3) patches in 15,158kb.
+  - Content layer conv4_2: 512 features in 1,383kb.
+[0m
+120   [1;97mloss[0m 6.08e+03   [1;97mcontent[0m [1;97m4_2[0m 8.38e+02   [1;97mstyle[0m [1;97m3_1[0m 1.27e+03  [1;97m4_1[0m 3.97e+03   [1;97mquality[0m  4.9%   [1;97mtime[0m 85.6s 
+130   [1;97mloss[0m 4.36e+03   [1;97mcontent[0m [1;97m4_2[0m 7.06e+02   [1;97mstyle[0m [1;97m3_1[0m 9.48e+02  [1;97m4_1[0m 2.71e+03   [1;97mquality[0m 41.8%   [1;97mtime[0m 752.5s 
+140   [1;97mloss[0m 4.04e+03   [1;97mcontent[0m [1;97m4_2[0m 7.06e+02   [1;97mstyle[0m [1;97m3_1[0m 8.57e+02  [1;97m4_1[0m 2.48e+03   [1;97mquality[0m 63.2%   [1;97mtime[0m 784.5s 
+150   [1;97mloss[0m 3.87e+03   [1;97mcontent[0m [1;97m4_2[0m 7.09e+02   [1;97mstyle[0m [1;97m3_1[0m 8.00e+02  [1;97m4_1[0m 2.36e+03   [1;97mquality[0m 74.1%   [1;97mtime[0m 769.3s 
+
+[0;36mOptimization finished in 4019.5s, average pixel error 10.3![0m
+
