@@ -1,0 +1,1 @@
+rendering done with only content semantic map and examples of texture styles 
