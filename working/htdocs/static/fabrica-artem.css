@@ -31,12 +31,22 @@ body {
     background: #eee url('/static/img/extra_clean_paper.png');
 }
 
+article p {
+    line-height: 33px;
+}
+
 .artem--mouse-pointer {
     cursor: pointer;
 }
 /***********************************************************************/
 .artem--title28 {
     font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.artem--title32 {
+    font-size: 32px;
     font-weight: bolder;
     margin-bottom: 8px;
 }
@@ -77,7 +87,7 @@ body {
 /* image carousel */
 
 #artem--home-carousel {
-    padding-top: 180px;
+    padding-top: 140px;
     margin: auto;
     width: 310px;
     height: 425px;
@@ -169,7 +179,7 @@ body {
 .media-carousel {
     margin-bottom: 0;
     padding: 0 40px 30px 40px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* Previous button  */
@@ -218,9 +228,35 @@ body {
 }
 
 .media-carousel img {
-    width: 250px;
-    height: 100px
+    width: auto;
+    height: 225px
 }
+
+
+.media-carousel .thumbnail {
+    position: relative;
+    padding: 6px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: silver;
+}
+
+.gallery-menu{
+    width: inherit;
+}
+
+.media-carousel .caption {
+    margin-top: 3px;
+    margin-bottom: -15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 10px;
+    vertical-align: bottom;
+}
+
 
 /* End carousel */
 

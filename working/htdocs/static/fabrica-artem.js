@@ -5,16 +5,38 @@ $(document).ready(function() {
             drag_message: "Drop image file your here",
             dropheight: 250,
             cancel_button: "Cancel",
-            multiple: false
+            multiple: true
         }).on("files.bs.filedialog", function(ev) {
-            var files = ev.files;
+            console.log("### modal open; event fired");
             var text = "";
+            var files = ev.files;
+
             files.forEach(function(f) {
+                var formData = new FormData();
+                formData.append('file', f);
+                
                 // make AJAX call to Flask endpoint POST to upload image
-                text += f.name + "<br/>";
+                $.ajax({
+                    type: "POST",
+                    enctype: "multipart/form-data",
+                    url: "http://datalogi.brogard:5050/upload/alpha",
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    cache: false,
+                    timeout: 600000,
+                    success: function(data) {
+                        console.log("ajax SUCCESS : ", data);
+                        text += f.name + "<br/>";
+                    },
+                    error: function(e) {
+                        console.log("ajax ERROR : ", e);
+                    }
+                });
             });
+            
         }).on("cancel.bs.filedialog", function() {
-            $("#output").html("Cancelled!");
+            console.log("modal closed/cancel");
         });
     });
 });
