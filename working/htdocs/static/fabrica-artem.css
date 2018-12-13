@@ -31,6 +31,10 @@ body {
     background: #eee url('/static/img/extra_clean_paper.png');
 }
 
+section {
+    
+}
+
 article p {
     line-height: 33px;
 }
@@ -48,7 +52,7 @@ article p {
 .artem--title32 {
     font-size: 32px;
     font-weight: bolder;
-    margin-bottom: 8px;
+    margin-bottom: 18px;
 }
 
 
@@ -80,14 +84,9 @@ article p {
     vertical-align: bottom;
 }
 
-
-
-
-
 /* image carousel */
-
 #artem--home-carousel {
-    padding-top: 140px;
+    padding-top: 110px;
     margin: auto;
     width: 310px;
     height: 425px;
@@ -106,7 +105,6 @@ article p {
 #artem--home-carousel:hover {
     animation-play-state: paused;
 }
-
 
 #artem--home-carousel img:hover {
     -webkit-filter: grayscale(1);
@@ -228,8 +226,7 @@ article p {
 }
 
 .media-carousel img {
-    width: auto;
-    height: 225px
+    height: inherit;
 }
 
 
@@ -258,20 +255,44 @@ article p {
 }
 
 
+.gallery-sidebar-wrapper {
+    position: relative;
+    left: -25px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.gallery-sidebar {
+    width: 230px;
+    padding-bottom: 20px;
+}
+
+.gallery-wrapper {
+    margin-top: 0px;
+    margin-left: 60px;  
+}
+
+
 /* End carousel */
-
-
-
-
-
-
-
+.vertical--border {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    border-left: 1px dashed #807373;
+    height: 788px;
+}
+.vertical--border--top {
+    position: absolute;
+    top: -10px;
+    width: 1000px;
+    border-top: 1px dashed #807373;
+}
 
 
 
 /* nav-bar header menu */
 #artem--header {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 #artem--logo {
@@ -387,3 +408,6 @@ article p {
     background-image: -webkit-linear-gradient(right, transparent 0%, rgba(0, 0, 0, .4) 100%);
 }
 /* nav-bar header menu */
+
+
+/********************************************/
