@@ -70,39 +70,33 @@
                 <div class="col-sm-9">
                     <p><span class="artem--title28">Implementation of Neural Style Transfer</span></p>
                     <ul class="nav nav-tabs">
-                        <li><a data-toggle="tab" href="#method1">alexjc/neural-doodle</a></li>
-                        <li><a data-toggle="tab" href="#method2">cheind/py-style-transfer</a></li>
-                        <li><a data-toggle="tab" href="#method3">titu1994/Neural-Style-Transfer</a></li>
+                        <li><a data-toggle="tab" href="#method1"><span class="artem--title22">Neural Doodle</span></a></li>
+                        <li><a data-toggle="tab" href="#method2"><span class="artem--title22">Py Style Transfer</span></a></li>
+                        <li><a data-toggle="tab" href="#method3"><span class="artem--title22">Neural Style Transfer</span></a></li>
                     </ul>
-
                     <div class="tab-content">
                         <div id="method1" class="tab-pane fade well">
                             <!--alexjc/neural-doodle-->
-                            <ul class="list-group">
-                                <li class="list-group-item">Theano</li>
-                                <li class="list-group-item">Lasagne</li>
-                                <li class="list-group-item">VGG-19</li>
-                            </ul>
+                            <ul class="list-group"><li class="list-group-item">
+<p>Using the VGG19 neural network and the Theano and Lasagne libraries, Neural Doodle allows the user to take a piece of art or picture and rearrange the stylistic elements to synthesize a new work of art using user-made semantic maps to identify the style image's major elements, and where these elements should appear in the synthesized image.</p>
+<p>These synthesized images look very similar to the originals. The program only works well with pictures or paintings of repeating patterns (e.g. leaves on a bush, skin of fruit), not more complicated images (e.g. buildings, people).</p>                            
+                            </li></ul>
                         </div>
                         <div id="method2" class="tab-pane fade well">
                             <!--cheind/py-style-transfer-->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">Toolbox</div>
-                                <div class="panel-body">
-                                    <ul class="list-group">
-                                        <li class="list-group-item">Theano</li>
-                                        <li class="list-group-item">Lasagne</li>
-                                        <li class="list-group-item">VGG-19</li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <ul class="list-group"><li class="list-group-item">
+<p>Py Style Transfer uses an abbreviated version of VGG19 (with the addition of Markov Random Field at higher levels), PyTorch, and Neural Doodle's semantic maps to transfer the style of one image onto the content of another.</p>
+<p>The synthesized images are visually coherent, and preserve the content of the originals while implementing elements of the style image to supplement the shading. The resulting images are small, and the user has little control over the values of variables used.</p>                            
+                            </li></ul>
                         </div>
                         <div id="method3" class="tab-pane fade well">
                             <!--titu1994/Neural-Style-Transfer-->
-                            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <ul class="list-group"><li class="list-group-item">
+<p>Neural Style Transfer runs the Keras library on top of Tensorflow with VGG19 (or 16) to transfer the style of one image onto the content of another. The program allows the user to manipulate many of the variables, use multiple images as style sources, and mask off certain aspects of the content image either to remain unchanged, or to have a secondary style source applied.</p>
+<p>Access to the large number of variables does require the user to fine-tune the parameters over multiple iterations, and the style of abstract art patterns cannot be fully realized without sacrificing content.</p>                            
+                            </li></ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

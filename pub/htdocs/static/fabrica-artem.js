@@ -1,7 +1,54 @@
 ACTION_UPLOAD_URL_DEV = "http://datalogi.brogard:5050/upload";
 ACTION_UPLOAD_URL_PRD = "http://datalogi.brogard:5050/upload";
 
+ACTION_IMAGE_FILES_URL_DEV = "http://datalogi.brogard:5050/image/files";
+ACTION_IMAGE_FILES_URL_PRD = "http://datalogi.brogard:5050/image/files";
+
+
 $(document).ready(function() {
+    
+    //get image files
+    $.get(ACTION_IMAGE_FILES_URL_DEV, function(data, status) {
+        var img;
+        console.log(status);
+        
+        // content
+        img = "";
+        data.content.forEach(function(f) {
+            img += `<td><img src="${f}"></td>`;
+        });
+        
+        content = `<tr>${img}</tr>`;
+        
+        // style
+        img = "";
+        data.style.forEach(function(f) {
+            img += `<td><img src="${f}"></td>`;
+        });
+        
+        style = `<tr>${img}</tr>`;
+    
+        // render
+        img = "";
+        data.render.forEach(function(f) {
+            img += `<td><img src="${f}"></td>`;
+        });
+        
+        render = `<tr>${img}</tr>`;
+    
+        console.log(content);
+        console.log(style);
+        console.log(render);
+        
+        $("tbody").append(content);
+        $("tbody").append(style);
+        $("tbody").append(render);
+
+    });
+    
+    
+    
+    // upload files
     $("#artem--upload-modal").click(function() {
         $.FileDialog({
             title: "Select image(s) to upload",
@@ -44,4 +91,6 @@ $(document).ready(function() {
             console.log("modal closed/cancel");
         });
     });
+
+
 });

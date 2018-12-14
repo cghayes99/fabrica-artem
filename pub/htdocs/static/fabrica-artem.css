@@ -35,6 +35,10 @@ section {
     
 }
 
+.section--area {
+    padding-bottom: 35px;
+}
+
 article p {
     line-height: 33px;
 }
@@ -43,6 +47,13 @@ article p {
     cursor: pointer;
 }
 /***********************************************************************/
+
+.artem--title22 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 4px;    
+    
+}
 .artem--title28 {
     font-size: 26px;
     font-weight: bolder;
@@ -226,7 +237,7 @@ article p {
 }
 
 .media-carousel img {
-    height: inherit;
+   
 }
 
 
@@ -237,9 +248,10 @@ article p {
     margin-left: 5px;
     margin-right: 5px;
     background-color: silver;
+    height: inherit;
 }
 
-.gallery-menu{
+.gallery-menu {
     width: inherit;
 }
 
